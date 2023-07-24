@@ -4,7 +4,9 @@ import Layout from "../layout/Layout";
 const IncomePage = () => {
   return (
     <Layout>
-      <Income />
+      <div className="bg-gray-100 min-h-screen flex items-center justify-center">
+        <Income />
+      </div>
     </Layout>
   );
 };
